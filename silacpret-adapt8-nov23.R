@@ -310,8 +310,8 @@ transc.final<-gsub("^ ", "", transc.final)
 ##para amostra 2, usei silacShiny
 
 ###PARTE 3
-#chave <-read.csv("https://raw.githubusercontent.com/oushiro/silac/master/chave_fonologica_utf8.csv", sep=";", encoding = "UTF-8") 
-chave <- read_delim("chave_fonologica_utf82.csv", delim = "\t") 
+#chave <-read.csv("https://github.com/oushiro/CoesaoeDispersao/edit/main/chave_fonologica_utf82.csv", sep=";", encoding = "UTF-8") 
+chave <- read_delim("https://github.com/oushiro/CoesaoeDispersao/edit/main/chave_fonologica_utf82.csv", delim = "\t") 
 head(chave, 20)
 
 #library(readr)
