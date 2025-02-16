@@ -392,7 +392,7 @@ words3 <- unlist(str_split(transc, pattern = " "))
 tabela.vog<-cbind(words3, words8)
 tabela.vog<-unique(tabela.vog)
 tabela.vog <- tabela.vog[order(tabela.vog[,1]), ]
-View(tabela.vog)
+#View(tabela.vog)
 excluir <- grep("\\bb\\b|\\bc\\b|\\bd\\b|\\be\\b|\\bf\\b|\\bg\\b|\\bh\\b|\\bi\\b|\\bj\\b|\\bk\\b|\\bl\\b|\\bm\\b|\\bn\\b|\\bo\\b|\\bp\\b|\\bq\\b|\\br\\b|\\bs\\b|\\bt\\b|\\bu\\b|\\bv\\b|\\bx\\b|\\bz\\b|\\bw\\b|\\by\\b", tabela.vog[,1], ignore.case = T, value = F)
 tabela.vog <- tabela.vog[-c(1:5,excluir), ]
 
