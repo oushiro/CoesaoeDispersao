@@ -311,7 +311,7 @@ transc.final<-gsub("^ ", "", transc.final)
 
 ###PARTE 3
 #chave <-read.csv("https://github.com/oushiro/CoesaoeDispersao/edit/main/chave_fonologica_utf82.csv", sep=";", encoding = "UTF-8") 
-chave <- read_delim("https://github.com/oushiro/CoesaoeDispersao/edit/main/chave_fonologica_utf82.csv", delim = "\t") 
+chave <- read_delim("https://raw.githubusercontent.com/oushiro/CoesaoeDispersao/refs/heads/main/chave_fonologica_utf82.csv", delim = "\t") 
 head(chave, 20)
 
 #library(readr)
